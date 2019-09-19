@@ -1,0 +1,32 @@
+{
+  "name": "@americanexpress/targeted-offers-client-samples",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "Samples for Amex Targeted offers API SDK",
+  "main": "index.js",
+  "author": "Sudhakar Meduri <Sudhakar.Meduri1@aexp.com> (https://github.com/smedur)",
+  "keywords": [
+    "Amex",
+    "rest",
+    "api",
+    "sdk",
+    "targeted",
+    "offers",
+    "samples"
+  ],
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
