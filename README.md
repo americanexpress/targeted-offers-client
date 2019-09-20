@@ -53,7 +53,7 @@ var offersclient = require(@americanexpress/targeted-offers-client);
 var config = {}
 offersclient.configure(config);
 
-offersclieknt.targetedoffers.get(request, headers, function (err, response) {
+offersclient.targetedoffers.get(request, headers, function (err, response) {
     if(err) {
         //handle error
     }
