@@ -2,7 +2,7 @@
 Amex Targeted Offers API is a capability to request instant pre-qualified , prescreened  Card offer(s) for the applicants, if eligible. 
 Targeted Offers API provides an interface to interact with systems of American Express. 
 ​
-</br></br>This JavaScript implementation allows Amex partners to integrate seamlessly to Targeted Offers and reduces complexity out of coding service layer integration to Targeted Offers API. The Targeted Offers Node SDK is a simple wrapper to the API. It assumes you have already set up your credentials with American Express and have your certs prepared. See the [authorization and authentication guides](https://developer.americanexpress.com/products/targeted-offers/guide#details) for more information. 
+</br></br>This JavaScript implementation allows Amex partners to integrate seamlessly to Targeted Offers and reduces complexity out of coding service layer integration to Targeted Offers API. The Targeted Offers Node SDK is a simple wrapper to the API. It assumes you have already set up your credentials with American Express and have your certs prepared. See the [authentication and authorization guides](https://developer.americanexpress.com/products/targeted-offers/guide#authentication) for more information. 
 </br></br>
 
 ## Table of Contents
@@ -28,7 +28,7 @@ Targeted Offers API provides an interface to interact with systems of American E
 
 ## Documentation
 
-Please see : [documentation for Amex Pre-Qualification API](https://developer.americanexpress.com/products/targeted-offers/overview)
+Please see : [documentation for Amex Targeted Offers API](https://developer.americanexpress.com/products/targeted-offers/overview)
 
 <br/>
 
