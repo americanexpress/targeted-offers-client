@@ -51,11 +51,11 @@ const headerParams = {
 
 test('should return session token', () => {
     httpclient.callService.mockReturnValueOnce(Promise.resolve({
-        acquisition_web_token: 'fldsjflsdfj3k3jlk34j'
+        acquisition_web_token: 'acq web token mock'
     }));
 
     return sdk.token.getSessionToken('djkladf', headerParams).then(resp => {
-        expect(resp.acquisition_web_token).toBe('fldsjflsdfj3k3jlk34j');
+        expect(resp.acquisition_web_token).toBe('acq web token mock');
         expect(httpclient.callService).toHaveBeenCalledTimes(1);
         expect(httpclient.callService.mock.calls[0][0]).toBe('/acquisition/digital/v1/token_mgmt/tokens');
         expect(httpclient.callService.mock.calls[0][1]).toBe('POST');

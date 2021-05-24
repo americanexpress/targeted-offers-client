@@ -61,7 +61,7 @@ test('should return json body', () => {
             return {
                 scope: 'default',
                 status: 'approved',
-                access_token: 'SGgKpuAG1DLMQPwYCG2AqZUPVdTL'
+                access_token: 'access token mock'
             };
         },
     });
