@@ -47,11 +47,11 @@ test('should return access token', () => {
         status: 'approved',
         expires_in: '3599',
         token_type: 'BearerToken',
-        access_token: '0VO8dvXAIXdt85HjbHhDsd2m7uhA'
+        access_token: 'access token mock'
     }));
 
     return sdk.authentication.getBearerToken().then(resp => {
-        expect(resp.access_token).toBe('0VO8dvXAIXdt85HjbHhDsd2m7uhA');
+        expect(resp.access_token).toBe('access token mock');
         expect(httpclient.callService).toHaveBeenCalledTimes(1);
         expect(httpclient.callService.mock.calls[0][0]).toBe('/apiplatform/v1/oauth/token_provisioning/bearer_tokens');
         expect(httpclient.callService.mock.calls[0][1]).toBe('POST');
